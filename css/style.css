@@ -9,20 +9,25 @@ header{
     align-items: center;
     font-size: 10pt;
     border-bottom: 1px solid;
+}
 
+main{
+    margin: 0 150px;
 }
 
 h3{
-     color: #e5e5e5;
+     color: #e5e5e5;  
+     font-family: "Yeseva One", serif; 
 }
 
+
 span{
-    color: #e5e5e5;
- 
+    color: #e5e5e5; 
 }
 
 h1{
     color: aliceblue;
+    font-family: "Yeseva One", serif;  
 }
 
 div{
@@ -30,11 +35,16 @@ div{
 }
 
 p{
-    color: aliceblue;
+    color: dimgrey;
+    font-family: "Montserrat", sans-serif;
 }
 
 footer{
     color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .point{
@@ -44,4 +54,18 @@ footer{
 
 .logo span{
     margin: 0 10px;
+}
+
+.menu b{
+    align-items: center;
+    margin: 0px 10px ;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.encadrer-vert{
+    width: 21%;
+    height: 30px;
+    background-color: #4ddda6;
 }
