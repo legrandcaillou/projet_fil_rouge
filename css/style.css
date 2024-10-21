@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color: #e5e5e5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10pt;
+    border-bottom: 1px solid;
+
+}
+
+h3{
+     color: #e5e5e5;
+}
+
+span{
+    color: #e5e5e5;
+ 
+}
+
+h1{
+    color: aliceblue;
+}
+
+div{
+    color: #4ddda6;
+}
+
+p{
+    color: aliceblue;
+}
+
+footer{
+    color: aliceblue;
+}
+
+.point{
+    color: #4ddda6;
+
+}
+
+.logo span{
+    margin: 0 10px;
+}
