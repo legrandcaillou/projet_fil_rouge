@@ -40,7 +40,7 @@ p{
 }
 
 footer{
-    color: aliceblue;
+    color: dimgrey;
     font-family: "Montserrat", sans-serif;
     display: flex;
     justify-content: center;
@@ -57,6 +57,8 @@ footer{
 }
 
 .menu b{
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
     margin: 0px 10px ;
     color: white;
@@ -69,3 +71,4 @@ footer{
     height: 30px;
     background-color: #4ddda6;
 }
+
