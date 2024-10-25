@@ -9,7 +9,6 @@ J'ai utilisé :
 - font awesome pour les icones (https://fontawesome.com/)
 - lorem picsum  (https://picsum.photos/)
 - vidéos sur internet
-   
-J'ai reçus de l'aide de camarades (Bastian et Romain)
 
+# PS : IL Y A UN PROBLEME LA VISUALISATION DEPUIS GITHUB, MON SITE N'AFFICHE PAS LES IMAGES ALORS QU'IL N'Y A AUCUN SOUCIS LORS DU GO LIVE EFFECTUER VISUAL CODE STUDIO. 
 
