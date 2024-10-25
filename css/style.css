@@ -58,6 +58,7 @@ h2 {
     justify-content: center;
     margin-bottom: 20px;
     padding: auto;
+
 }
 
 .category a {
@@ -96,8 +97,9 @@ footer h6 {
     display: flex;
     justify-content: center;
 }
-.intro{
-    margin: 0px 150px ;
+
+.intro {
+    margin: 0px 150px;
 }
 
 /* ------------------- partie images -------------------*/
@@ -117,28 +119,62 @@ aside {
 }
 
 .conteneur-img img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 }
 
 
 
 /* ------------------- media queries -------------------*/
 
-/* Media Query pour les écrans entre 1024px et 1440px */
-@media (max-width: 1440px) {
-    .image-container {
-        grid-template-columns: repeat(4, 0fr);
-        /* 4 colonnes */
+@media (max-width: 1024px) {
+    .conteneur-img {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+        margin: 0 20px;
+    }
+
+    .intro {
+        margin: 0 20px;
+
+        .paragraphe {
+            margin: 0 20px;
+        }
     }
 }
 
+    @media (max-width: 768px) {
 
+        .conteneur-img {
+            grid-template-columns: repeat(3, 1fr);
+            margin: 0 20px;
+        }
 
+        header {
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
 
+        .logo {
+            margin-top: 10px;
+        }
 
-@media all and (max-width: 425px) {
-    header {
-        flex-direction: column;
+        .intro {
+            margin: 0 20px;
+        }
+
+        .paragraphe {
+            margin: 0 20px;
+        }
+
+        .menu {
+            font-size: 9pt;
+            margin: 10px 0;
+        }
+
+        .category a {
+            padding: 8px 4px;
+            font-size: 9px;
+        }
     }
-}
